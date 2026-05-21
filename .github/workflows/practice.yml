@@ -1,0 +1,11 @@
+name: practicefile
+on: workflow_dispatch
+jobs:
+  firstjob:
+    runs-on: ubuntu-latest
+    steps:
+      - name: to print first job
+        run:  echo "hello pring 1st job"
+      - name: To print Second Job
+        run: echo "Hello Pring second JOb"
+        
